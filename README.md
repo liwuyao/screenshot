@@ -27,6 +27,6 @@ js
 	   		}
 	   })
 
-注释：结果为base64格式的图片格式，上传的时候用fromData上传。
+注释：结果为base64图片格式，上传的时候用fromData上传。
 
 	formData.append("image", 文件,文件名+".jpg"); 
