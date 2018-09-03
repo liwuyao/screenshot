@@ -1,0 +1,34 @@
+.screenshot-box-lwy {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	border: 1px solid gainsboro;
+	overflow: hidden;
+}
+
+.add-lwy {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 47px;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.upimgs-lwy {
+	position: absolute;
+	bottom: -100px;
+}
+
+.window-lwy {
+	position: absolute;
+	border: 1px solid gainsboro;
+}

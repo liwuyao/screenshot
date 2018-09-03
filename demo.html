@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./screenshot.css"/>
+	</head>
+	<body>
+		<div style="display: flex;" id='jietu'>
+			<div class="screenshot-box-lwy">
+				<div class="add-lwy">+</div>
+				<input type="file" class="upimgs-lwy"  name="image" accept="image/png,image/jpeg"/>
+			</div>
+			<img id='test' src="" style="width: 100px;height: 100px;margin-left: 40px;"/>
+		</div>
+	</body>
+	<script src="./screenshot.js"></script>
+	<script>
+	   var scren = new screenshot({
+	   		outBoxName:'#jietu',
+	   		isFixed:false,
+	   		width:300,
+	   		littleImgName:'test',
+	   		complete:function(res){
+	   			console.log(res)
+	   		}
+	   })
+	</script>
+</html>
